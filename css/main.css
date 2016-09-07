@@ -1,0 +1,294 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+textarea::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+textarea::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+textarea:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+textarea:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+textarea:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+textarea:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+textarea:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+textarea:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+body input:focus:required:invalid, body textarea:focus:required:invalid {}
+body input:required:valid, body textarea:required:valid{}
+
+body{font-family: "RobotoRegular", sans-serif; font-size: 16px; line-height: 1.1;}
+
+a{
+	-webkit-transition: all ease-in .2s;
+	-o-transition: all ease-in .2s;
+	transition: all ease-in .2s;
+}
+
+.text-left{text-align: left;}
+.text-center{text-align: center;}
+.text-right{text-align: right;}
+
+.input-wrap{position: relative;}
+
+#success{display: none;}
+
+
+
+
+
+
+
+header{
+	min-height: 1000px;
+	background-color: #cb502a;
+}
+.spot{
+	float: left;
+	padding: 30px 0;
+}
+.logo{
+	font-family: "Calibri";
+	font-size: 20px;
+	padding: 30px 0;
+}
+p.logo a{
+	color: #fff;
+	padding-left: 5px;
+}
+.menu{
+	text-align:right;
+}
+.menu li{
+	display: inline-block;
+	padding-left: 20px;
+}
+.menu li a{
+	font-size: 15px;
+	color: #fff;
+}
+.menu li a:hover{
+	text-decoration: underline;
+}
+nav{
+	padding: 30px 0;
+}
+.under{
+	margin-top: 170px;
+	margin-bottom: 80px;
+	position: relative;
+    left: 42%;
+}
+input{
+	width: 360px;
+	height: 50px;
+	background: #b64825;
+	border: none;
+	position: relative;
+	left: 35%;
+}
+.top{
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
+	margin-right: 80px;
+	margin-bottom: 25px;
+}
+.bot{
+	font-size: 15px;
+	color: #7e3018;
+	text-align: center;
+	margin-right: 80px;
+	margin-top: 25px;
+	margin-bottom: 275px;
+}
+.center{
+	position: relative;
+	left: 47%;
+}
+.foto{
+	min-height: 570px;
+	background: #f7f7f7;
+}
+.zav{
+	font-family: "Calibri";
+	font-size: 24px;
+	margin:55px 0;
+	color: #515151;
+	padding-right: 50px;
+}
+.levo1{
+	position: relative;
+    right: 155px;
+    top: 75px;
+}
+.pravo1{
+	position: relative;
+    left: 105px;
+    bottom: 77px;
+}
+
+.item{
+	overflow: hidden;
+}
+h3{
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+.ufoto{
+	font-size: 11px;
+	color: #909090;
+	text-align: center;
+}
+.topf{
+    font-size: 11px;
+    color: #909090;
+    text-align: left;
+}
+.text{
+	min-height: 510px;
+	background: #fff;
+}
+.active{
+	margin-top: 100px;
+}
+.show{
+	font-family: "Calibri";
+	font-size: 22px;
+	color: #4d4d4d;
+	margin: 60px 0;
+}
+.show span{
+	font-weight: bold;
+}
+.shower{
+	font-size: 15px;
+	font-family: "Calibri";
+	color: #4d4d4d;
+	margin-top: 45px;
+	margin-bottom: 35px;
+}
+.fotobot{
+	min-height: 565px;
+	background: #f7f7f7;
+}
+.levo2{
+	position: relative;
+    right: 155px;
+    top: 75px;
+}
+.pravo2{
+	position: relative;
+    left: 105px;
+    bottom: 77px;
+}
+.fotorobot{
+	min-height: 405px;
+	background: #f7f7f7;
+}
+.fotorobot h2{
+	font-family: "Calibri";
+	font-size: 13px;
+	font-weight: bold;
+	color: #2b2b2b;
+	margin: 20px 0;
+	text-align: center;
+}
+.button{
+	display: inline-block;
+	height: 40px;
+	border-radius: 10px;
+	font-size: 13px;
+	color: #5a5a5a;
+	line-height: 40px;
+	background: #fff;
+	padding: 0 15px 0 15px;
+	margin-top: 30px;
+	margin-right: 50px;
+	box-shadow: 0px 5px 10px 0px #e1e1e1;
+}
+.button:hover{
+	background: #47e3c4;
+}
+.fapactive{
+	margin-top: 40px;
+}
+.newss{
+	margin-right: 20px;
+}
+.item1{
+	height: 160px;
+	background: #fff;
+}
+footer{
+	height: 60px;
+}
+footer p{
+	font-size: 14px;
+	color: #4d4d4d;
+	margin-top: 40px;
+	margin-left: 300px;
+}
+footer p span{
+	font-weight: bold;
+}
+.levo{
+	position: relative;
+    right: 125px;
+    top: 75px;
+}
+.pravo{
+	position: relative;
+    left: 75px;
+    bottom: 77px;
+}
+.block{
+	min-height: 85px;
+	background: #fff;
+}
+.blocker{
+	min-height: 405px;
+	background: #fff;
+}
+.tip{
+	font-family: "Calibri";
+	font-size: 16px;
+	color: #555555;
+	font-weight: bold;
+	margin-top: 45px;
+}
+.centr{
+	margin: 0 25px;
+}
+.bubl{
+	margin: 0 25px 0 20px;
+}
+.zvon{
+	margin: 0 20px 0 25px;
+}
+.container{
+	width: 1555px;
+}
+.col-sm-1{
+	margin-right: 50px;
+}
